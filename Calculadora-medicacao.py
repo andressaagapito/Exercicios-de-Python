@@ -1,0 +1,10 @@
+print ("\033[1m=\033[m"*10, end ='')
+print("\033[1;32m C A L C U L A D O R A \033[m", end ='')
+print ("\033[1m=\033[m"*10)
+dose = float(input("Qual a dose indicada? "))
+peso = float(input("Qual o peso? Kg:"))
+medicação = float(input("Quantas mg/kg? "))
+calculo = (dose*peso) / medicação
+print ("O valor a ser dado é {:.2f}.".format(calculo))
+    sleep(0.5)
+print ("="*12)
